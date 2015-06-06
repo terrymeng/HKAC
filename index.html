@@ -235,20 +235,30 @@
 								<!-- Contact Form -->
 								
 									<section>
-									<div id="mc_embed_signup">
-<form action="//hkanalytics.us11.list-manage.com/subscribe/post?u=887c58900eb765774d92665db&amp;id=433700f714" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+									<!-- <div id="mc_embed_signup"> -->
+									<form action="//hkanalytics.us11.list-manage.com/subscribe/post?u=887c58900eb765774d92665db&amp;id=433700f714" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 									<!--	<form method="post" action="#"> -->
+									<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+
+
+
 											<div class="row 50%">
 												<div class="6u 12u(mobile)">
-													<input type="text" name="name" id="contact-name" placeholder="First Name" />
+													<input type="text" name="FNAME" id="mce-FNAME" placeholder="First Name"  value = ""/>
 												</div>
 												<div class="6u 12u(mobile)">
-													<input type="text" name="email" id="contact-email" placeholder="Last Name" />
+													<input type="text" name="LNAME" id="mce-LNAME" placeholder="Last Name"  valye = ""/>
+										
 												</div>
+												
 											</div>
 											<div class="row 50%">
 												<div class="12u">
-													<textarea name="Email" id="contact-email" placeholder="Email" ></textarea>
+													<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>	</label>
+													<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+													
+													<!--<textarea name="Email" id="contact-email" placeholder="Email" ></textarea>-->
+												
 												</div>
 											</div>
 										<!-- Email anti-robot tools rows="4"-->
@@ -270,7 +280,7 @@
 											<!--<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>-->
 											
 										</form>
-									</div>
+									<!-- </div> -->
 									</section>
 
 							</div>
