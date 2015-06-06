@@ -12,6 +12,15 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		
+		<!-- Begin MailChimp Signup Form -->
+			<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+			<style type="text/css">
+			#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+			/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+			We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+			</style>
+		
 	</head>
 	<body class="homepage">
         
@@ -224,29 +233,40 @@
 							<div class="6u 12u(mobile)">
 
 								<!-- Contact Form -->
+								
 									<section>
 										<form method="post" action="#">
 											<div class="row 50%">
 												<div class="6u 12u(mobile)">
-													<input type="text" name="name" id="contact-name" placeholder="Name" />
+													<input type="text" name="name" id="contact-name" placeholder="First Name" />
 												</div>
 												<div class="6u 12u(mobile)">
-													<input type="text" name="email" id="contact-email" placeholder="Email" />
+													<input type="text" name="email" id="contact-email" placeholder="Last Name" />
 												</div>
 											</div>
 											<div class="row 50%">
 												<div class="12u">
-													<textarea name="message" id="contact-message" placeholder="Message" rows="4"></textarea>
+													<textarea name="Email" id="contact-email" placeholder="Email" rows="4"></textarea>
 												</div>
 											</div>
+										<!-- Email anti-robot tools-->
+										<div id="mce-responses" class="clear">
+											<div class="response" id="mce-error-response" style="display:none"></div>
+											<div class="response" id="mce-success-response" style="display:none"></div>
+										</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 											<div class="row">
 												<div class="12u">
 													<ul class="actions">
-														<li><input type="submit" class="style1" value="Send" /></li>
+														<div style="position: absolute; left: -5000px;"><input type="text" name="b_887c58900eb765774d92665db_433700f714" tabindex="-1" value=""></div>
+														<li><input type="submit" class="style1" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"/></li>
 														<li><input type="reset" class="style2" value="Reset" /></li>
 													</ul>
 												</div>
 											</div> 
+											
+											
+											<!--<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>-->
+											
 										</form>
 									</section>
 
@@ -319,5 +339,8 @@
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 
+		<!-- Add -->
+		<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+		<!--End mc_embed_signup-->
 	</body>
 </html>
