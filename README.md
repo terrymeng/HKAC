@@ -1,9 +1,6 @@
 # HKAC
 Hong Kong Analytics Community
  
-Next to do list
-- Fix navigator bar. 
-- FIx navigator bar click amiation 
-- Fix Events as 1st activity/ 2nd dates&contents/ 3rd Coming soon
-- Fix "Contact us" as Par1: Linkedin (large long bar); Part 2: Wanna be a speaker.
-- Fix About us layouts
+Website enhancement to do list
+- reduce the sessions (1.Logo; 2.Sign Up 3. Past event 4. Latest Event 5. LinkedIn 5. About US) 
+- Update the sign up form
