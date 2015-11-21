@@ -1,6 +1,13 @@
 # HKAC
 Hong Kong Analytics Community
  
-Website enhancement to do list
-- reduce the sessions (1.Logo; 2.Sign Up 3. Past event 4. Latest Event 5. LinkedIn 5. About US) 
-- Update the sign up form
+
+1. Website enhancement to do list
+..* Reduce the session to
+...* Latest Event / Past events
+...* About HKAC (Info graphic, occupation, # members, etc.) - what we do : Events / Workshops / Panel discussion
+...* About The Team ( Linkedin Profile)
+...* Stay in touch
+
+2. Another item
+⋅⋅* Unordered sub-list. 
