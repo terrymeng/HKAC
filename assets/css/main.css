@@ -2910,9 +2910,11 @@
             -moz-box-sizing: border-box;
             box-sizing: border-box;
             margin: 30px auto;
-            overflow: hidden;
+            overflow:hidden;
             text-align: center;
             width: 94%;
+            max-height: inherit;
+
         }
         
         #the-team .team-card {
