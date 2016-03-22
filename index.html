@@ -10,20 +10,22 @@
 		<title>Hong Kong Analytics Community</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!-- Kissmetrics tracking snippet -->
-		<script type="text/javascript">var _kmq = _kmq || [];
-		var _kmk = _kmk || 'c4d7ab06a18d5104b5b4c412e2e3fc09e82d4ddf';
-		function _kms(u){
-		  setTimeout(function(){
-			var d = document, f = d.getElementsByTagName('script')[0],
-			s = d.createElement('script');
-			s.type = 'text/javascript'; s.async = true; s.src = u;
-			f.parentNode.insertBefore(s, f);
-		  }, 1);
-		}
-		_kms('//i.kissmetrics.com/i.js');
-		_kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
-		</script>
+		
+		<!-- Facebook Pixel Code -->
+		<script>
+		!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+		n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+		document,'script','//connect.facebook.net/en_US/fbevents.js');
+		
+		fbq('init', '886460331446950');
+		fbq('track', "PageView");</script>
+		<noscript><img height="1" width="1" style="display:none"
+		src="https://www.facebook.com/tr?id=886460331446950&ev=PageView&noscript=1"
+		/></noscript>
+		<!-- End Facebook Pixel Code -->
+		
 		<meta name="google-site-verification" content="GCfCXJyiShkDwt1kXfnlTbkCFUUu9JzT_Tre9wG-R-A" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
